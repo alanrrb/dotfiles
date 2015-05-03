@@ -190,6 +190,5 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
-# My alias
-alias postgres="postgres -D /usr/local/var/postgres"
-alias aliass="alias | grep"
+
+source ~/.aliases.user.zsh
